@@ -12,6 +12,8 @@
 		842BF6E11EA8D59B00715FB3 /* JailBrokenCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 842BF6D31EA8D59B00715FB3 /* JailBrokenCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8470FBA31EAB3DDD00752C81 /* JailCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 8470FBA11EAB3DDD00752C81 /* JailCheck.h */; };
 		8470FBA41EAB3DDD00752C81 /* JailCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470FBA21EAB3DDD00752C81 /* JailCheck.m */; };
+		8470FBA71EAB3E2100752C81 /* offsets.c in Sources */ = {isa = PBXBuildFile; fileRef = 8470FBA51EAB3E2100752C81 /* offsets.c */; };
+		8470FBA81EAB3E2100752C81 /* offsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 8470FBA61EAB3E2100752C81 /* offsets.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		842BF6E01EA8D59B00715FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8470FBA11EAB3DDD00752C81 /* JailCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JailCheck.h; sourceTree = "<group>"; };
 		8470FBA21EAB3DDD00752C81 /* JailCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JailCheck.m; sourceTree = "<group>"; };
+		8470FBA51EAB3E2100752C81 /* offsets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = offsets.c; sourceTree = "<group>"; };
+		8470FBA61EAB3E2100752C81 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				842BF6D31EA8D59B00715FB3 /* JailBrokenCheck.h */,
+				8470FBA51EAB3E2100752C81 /* offsets.c */,
+				8470FBA61EAB3E2100752C81 /* offsets.h */,
 				8470FBA11EAB3DDD00752C81 /* JailCheck.h */,
 				8470FBA21EAB3DDD00752C81 /* JailCheck.m */,
 				842BF6D41EA8D59B00715FB3 /* Info.plist */,
@@ -100,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842BF6E11EA8D59B00715FB3 /* JailBrokenCheck.h in Headers */,
+				8470FBA81EAB3E2100752C81 /* offsets.h in Headers */,
 				8470FBA31EAB3DDD00752C81 /* JailCheck.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8470FBA71EAB3E2100752C81 /* offsets.c in Sources */,
 				8470FBA41EAB3DDD00752C81 /* JailCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
