@@ -10,6 +10,8 @@
 		842BF6DA1EA8D59B00715FB3 /* JailBrokenCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842BF6D01EA8D59B00715FB3 /* JailBrokenCheck.framework */; };
 		842BF6DF1EA8D59B00715FB3 /* JailBrokenCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842BF6DE1EA8D59B00715FB3 /* JailBrokenCheckTests.m */; };
 		842BF6E11EA8D59B00715FB3 /* JailBrokenCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 842BF6D31EA8D59B00715FB3 /* JailBrokenCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8470FBA31EAB3DDD00752C81 /* JailCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 8470FBA11EAB3DDD00752C81 /* JailCheck.h */; };
+		8470FBA41EAB3DDD00752C81 /* JailCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8470FBA21EAB3DDD00752C81 /* JailCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		842BF6D91EA8D59B00715FB3 /* JailBrokenCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBrokenCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842BF6DE1EA8D59B00715FB3 /* JailBrokenCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBrokenCheckTests.m; sourceTree = "<group>"; };
 		842BF6E01EA8D59B00715FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8470FBA11EAB3DDD00752C81 /* JailCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JailCheck.h; sourceTree = "<group>"; };
+		8470FBA21EAB3DDD00752C81 /* JailCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JailCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				842BF6D31EA8D59B00715FB3 /* JailBrokenCheck.h */,
+				8470FBA11EAB3DDD00752C81 /* JailCheck.h */,
+				8470FBA21EAB3DDD00752C81 /* JailCheck.m */,
 				842BF6D41EA8D59B00715FB3 /* Info.plist */,
 			);
 			path = JailBrokenCheck;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842BF6E11EA8D59B00715FB3 /* JailBrokenCheck.h in Headers */,
+				8470FBA31EAB3DDD00752C81 /* JailCheck.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8470FBA41EAB3DDD00752C81 /* JailCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +400,7 @@
 				842BF6E61EA8D59B00715FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842BF6E71EA8D59B00715FB3 /* Build configuration list for PBXNativeTarget "JailBrokenCheckTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +409,7 @@
 				842BF6E91EA8D59B00715FB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
