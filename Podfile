@@ -6,7 +6,7 @@ target 'JailBrokenCheck' do
   # use_frameworks!
 
   # Pods for JailBrokenCheck
-
+	pod ‘JailBrokenCheck’, :path => ‘../JailBrokenCheck’
   target 'JailBrokenCheckTests' do
     inherit! :search_paths
     # Pods for testing
